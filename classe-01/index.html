@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galeria</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <aside>
+      <button class="menu-button">
+        <img
+          src="./assets/closed-menu.svg"
+          alt="Abrir menu"
+          class="menu-button-img"
+        />
+      </button>
+      <button>
+        <img src="./assets/active-home.svg" />
+        <span class="active hidden">Início</span>
+      </button>
+      <button>
+        <img src="./assets/inactive-like.svg" />
+        <span class="inactive hidden">Favoritos</span>
+      </button>
+      <button class="bottom-aside">
+        <img src="./assets/inactive-settings.svg" />
+        <span class="inactive hidden">Configurações</span>
+      </button>
+    </aside>
+    <main>
+      <h1>Início</h1>
+      <div class="container">
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 1.png"
+            alt="Rato"
+            id="1"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 2.png"
+            alt="Gato"
+            id="2"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 3.png"
+            alt="Lobo"
+            id="3"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 4.png"
+            alt="Macaco"
+            id="4"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 5.png"
+            alt="Borboleta"
+            id="5"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 6.png"
+            alt="Leopardo"
+            id="6"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 7.png"
+            alt="Raposa"
+            id="7"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 8.png"
+            alt="Raposa Branca"
+            id="8"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 9.png"
+            alt="Tartaruga"
+            id="9"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+
+        <div class="img-ctn">
+          <img src="./assets/like.svg" alt="Liked" class="liked hidden" />
+          <img
+            src="./assets/gallery/image 10.png"
+            alt="Leão"
+            id="10"
+            class="img-gallery"
+          />
+          <div class="info-img">
+            <p>Lorem ipsum</p>
+            <p class="grey">há 1 mês</p>
+          </div>
+        </div>
+      </div>
+      <div class="modal hidden">
+        <img src="./assets/close-modal.svg" alt="Fechar" class="close-modal" />
+        <div class="modal-ctn">
+          <img src="./assets/prev.svg" alt="Imagem Anterior" class="prev" />
+          <div class="img-block">
+            <img src="./assets/like.svg" alt="Liked" class="liked-md hidden" />
+            <img class="modal-img" />
+          </div>
+          <img src="./assets/next.svg" alt="Próxima Imagem" class="next" />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
